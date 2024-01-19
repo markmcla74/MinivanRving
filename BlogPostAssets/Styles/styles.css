@@ -14,7 +14,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  font-size: 15px;
+  font-size: 20px;
   @media (max-width: 600px) {
   font-size: 30px;
   }
