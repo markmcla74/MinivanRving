@@ -91,6 +91,9 @@ p {
 .video {
   aspect-ratio: 16 / 9;
   width: 60%;
+  @media (max-width: 600px) {
+  width: 90%;
+  }
   padding: 10px;
 
 }
