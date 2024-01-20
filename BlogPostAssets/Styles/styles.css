@@ -73,7 +73,7 @@ p {
    @media (max-width: 600px) {
   width: 90%;
   }
-   @media (min-width: 900px) {
+   @media (min-width: 800px) {
   width: 50%;
   }
 }
