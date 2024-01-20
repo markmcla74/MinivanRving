@@ -71,7 +71,7 @@ p {
   margin-right: auto;
   width: 60%;
    @media (max-width: 600px) {
-  width: 95%;
+  width: 90%;
   }
 }
 
@@ -83,6 +83,9 @@ p {
    @media (max-width: 600px) {
   width: 90%;
   }
+   @media (min-width: 900px) {
+  width: 60%;
+  }
 }
 
 #authorInfo {
@@ -90,10 +93,6 @@ p {
 }
 
 #mainContent {
-  /*background-color: lightgray;
-  padding-top: 20px;
-	padding-bottom: 8px;
-  */
    padding: 20px;
    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent white background for content */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
@@ -104,7 +103,7 @@ p {
   aspect-ratio: 16 / 9;
   width: 60%;
   @media (max-width: 600px) {
-  width: 90%;
+  width: 95%;
   }
   padding: 10px;
 
