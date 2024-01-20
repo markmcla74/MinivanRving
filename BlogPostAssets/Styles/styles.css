@@ -104,7 +104,7 @@ p {
 #myContactImage {
    width: 33%;
     @media (max-width: 600px) {
-  width: 90%;
+  width: 80%;
   }
    @media (min-width: 950px) {
   width: 20%;
