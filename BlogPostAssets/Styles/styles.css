@@ -64,6 +64,9 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+   @media (max-width: 600px) {
+  width: 90%;
+  }
 }
 
 .mainImageFormatBlog {
@@ -71,6 +74,9 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+   @media (max-width: 600px) {
+  width: 90%;
+  }
 }
 
 #authorInfo {
