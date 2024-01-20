@@ -54,6 +54,9 @@ h1 {
 
 h3 {
   font-size: 1.8rem;
+   @media (max-width: 600px) {
+  font-size: 1.6rem;
+  }
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -68,7 +71,7 @@ p {
   margin-right: auto;
   width: 60%;
    @media (max-width: 600px) {
-  width: 90%;
+  width: 95%;
   }
 }
 
